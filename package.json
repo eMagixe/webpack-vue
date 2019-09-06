@@ -1,0 +1,29 @@
+{
+  "name": "webpack-vue",
+  "version": "1.0.0",
+  "description": "My template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eMagixe/webpack-vue.git"
+  },
+  "author": "Magixe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eMagixe/webpack-vue/issues"
+  },
+  "homepage": "https://github.com/eMagixe/webpack-vue#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "path": "^0.12.7",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
