@@ -1,6 +1,6 @@
 import './js/common'
-import './css/main.css'
-import './scss/main.scss'
+import './assets/css/main.css'
+import './assets/scss/main.scss'
 
 import Vue from 'vue'
 import store from './store'
