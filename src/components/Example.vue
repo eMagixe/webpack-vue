@@ -10,12 +10,12 @@
 <script>
 export default {
     data() {
-        return {
-            message: null
-        }
+        return {}
     },
-    created() {
-        this.message = this.$store.getters.getMessage
+    computed: {
+        message(){
+            return this.$store.getters.getMessage
+        }
     }
 }
 </script>
